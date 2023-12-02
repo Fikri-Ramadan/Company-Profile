@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto flex gap-x-12">
         <div className="w-1/3 space-y-4">
           <div className="font-bold tracking-widest text-4xl">InnoTech</div>
-          <div className="text-xs text-gray-500">
+          <div className="text-sm text-gray-500">
             Founded in 2010, InnoTech has been a pioneer in transformative
             technology solutions.
           </div>

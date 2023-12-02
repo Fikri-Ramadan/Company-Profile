@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <div className="relative">
       <Image
-        className="object-cover max-h-160 rounded-2xl"
+        className="object-cover h-160 rounded-2xl"
         src="/hero.jpg"
         alt="hero img"
         width={1280}
