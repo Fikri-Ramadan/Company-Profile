@@ -7,7 +7,6 @@ export default function Hero() {
       <Image
         className="object-cover h-160 rounded-2xl md:h-142"
         src="/hero.jpg"
-        srcset
         alt="hero img"
         width={1280}
         height={500}
