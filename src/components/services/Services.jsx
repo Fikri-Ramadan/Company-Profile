@@ -27,8 +27,8 @@ export default function Services() {
             <SiMaterialdesignicons className="w-8 h-8" />
           </div>
           <div className="mt-8 flex flex-col gap-4">
-            <span className="font-bold md:text-lg">UI/UX Design</span>
-            <span className="font-light text-xs md:text-sm">
+            <span className="font-bold">UI/UX Design</span>
+            <span className="font-light text-xs">
               focus on understanding your audience and translating your brand
               into an engaging digital interface.
             </span>
@@ -39,8 +39,8 @@ export default function Services() {
             <FaLaptopCode className="w-8 h-8" />
           </div>
           <div className="mt-8 flex flex-col gap-4">
-            <span className="font-bold md:text-lg">Web Development</span>
-            <span className="font-light text-xs md:text-sm">
+            <span className="font-bold">Web Development</span>
+            <span className="font-light text-xs">
               we specialize in developing robust and scalable web applications
               tailored to meet your business objectives.{' '}
             </span>
@@ -51,8 +51,8 @@ export default function Services() {
             <TbDeviceMobileCode className="w-8 h-8" />
           </div>
           <div className="mt-8 flex flex-col gap-4">
-            <span className="font-bold md:text-lg">Mobile App Development</span>
-            <span className="font-light text-xs md:text-sm">
+            <span className="font-bold">Mobile App Development</span>
+            <span className="font-light text-xs">
               crafts innovative and user-friendly mobile applications for
               various platforms.
             </span>
@@ -63,8 +63,8 @@ export default function Services() {
             <FaGear className="w-8 h-8" />
           </div>
           <div className="mt-8 flex flex-col gap-4">
-            <span className="font-bold md:text-lg">Quality Assurance and Testing</span>
-            <span className="font-light text-xs md:text-sm">
+            <span className="font-bold">Quality Assurance and Testing</span>
+            <span className="font-light text-xs">
               delivering high-quality software through rigorous testing
               processes.
             </span>
