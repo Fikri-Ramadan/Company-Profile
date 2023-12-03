@@ -7,16 +7,16 @@ export default async function Testimonial() {
   return (
     <div className="py-24 max-w-7xl mx-auto">
       <div className="text-center text-white mb-16">
-        <span className="text-4xl font-bold">
+        <span className="text-4xl font-bold md:text-3xl">
           Best Reasons To Choose Our Services
         </span>
       </div>
-      <div className="text-white flex justify-center">
+      <div className="text-white flex justify-center md:flex-col md:gap-16">
         <div className="flex-1 flex flex-col items-center gap-y-6">
           <span className="text-6xl">13+</span>
           <span className="text-xl font-medium">Years of Experience</span>
         </div>
-        <div className="flex-1 flex flex-col items-center gap-y-6 border-x-4 border-slate-600">
+        <div className="flex-1 flex flex-col items-center gap-y-6 border-x-4 border-slate-600 md:border-none">
           <span className="text-6xl">3k+</span>
           <span className="text-xl font-medium">Happy Clients</span>
         </div>
@@ -25,8 +25,8 @@ export default async function Testimonial() {
           <span className="text-xl font-medium">Satisfaction</span>
         </div>
       </div>
-      <div className="flex justify-center space-x-8 text-white mt-16">
-        <div className="w-1/3">
+      <div className="flex justify-center items-center gap-8 text-white mt-16 md:flex-col ">
+        <div className="w-1/3 lg:w-2/5 md:w-11/12">
           <TestimonialCard
             picture={users[0].picture.large}
             name={`${users[0].name.first} ${users[0].name.last}`}
@@ -36,7 +36,7 @@ export default async function Testimonial() {
             }
           />
         </div>
-        <div className="w-1/3">
+        <div className="w-1/3 lg:w-2/5 md:w-11/12">
           <TestimonialCard
             name={`${users[1].name.first} ${users[1].name.last}`}
             picture={users[1].picture.large}

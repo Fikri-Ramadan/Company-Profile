@@ -52,7 +52,7 @@ export default function Navbar() {
               !isOpen && 'hidden'
             }`}
           >
-            <div className="bg-slate-200 py-12 px-16 flex flex-col space-y-12 text-center text-gray-800">
+            <div className="bg-slate-100 py-12 px-16 flex flex-col space-y-12 text-center text-gray-800">
               <Link
                 className="text-gray-700 text-xl font-medium hover:text-cyan-800"
                 href="/"

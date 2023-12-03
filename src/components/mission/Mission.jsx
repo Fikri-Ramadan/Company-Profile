@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Mission() {
   return (
-    <div className="mx-auto flex items-center">
+    <div className="mx-auto flex gap-16 items-center lg:flex-col lg:text-center">
       <div className='flex-1'>
-        <Image src='/mission.jpg' alt='' width={500} height={500} className='h-96 object-cover' />
+        <Image src='/mission.jpg' alt='' width={1280} height={500} className='h-96 object-cover lg:h-112' />
       </div>
       <div className="flex-1 flex flex-col gap-y-4">
         <span className="text-2xl font-medium tracking-wide">OUR MISSION</span>

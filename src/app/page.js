@@ -17,7 +17,7 @@ export default function Home() {
         <Testimonial />
       </div>
       <div className="max-w-7xl mx-auto space-y-36 px-8">
-        {/* <TestimonialCompany /> */}
+        <TestimonialCompany />
         <Contact />
       </div>
     </div>
