@@ -18,22 +18,26 @@ export default function Hero() {
         <span className="text-7xl text-white font-bold lg:text-5xl md:text-xl md:font-extrabold">
           through Innovation
         </span>
-        <span className="text-2xl text-white font-light mt-12 lg:text-xl md:text-xs">
+        <span className="text-2xl text-white font-light mt-12 lg:text-xl md:hidden">
           Founded in 2010, InnoTech has been a pioneer
         </span>
-        <span className="text-2xl text-white font-light lg:text-xl md:text-sm">
+        <span className="text-2xl text-white font-light lg:text-xl md:hidden">
           in transformative technology solutions.
         </span>
-        <div className="flex mt-12 gap-8 md:flex-col">
+        <span className="hidden md:inline md:text-sm md:text-white md:font-light md:text-center md:mt-8 md:px-4">
+          Founded in 2010, InnoTech has been a pioneer in transformative
+          technology solutions.
+        </span>
+        <div className="flex items-center mt-12 gap-8 md:flex-col md:gap-4">
           <Link
             href="/about"
-            className="text-center text-white bg-cyan-600 p-3 hover:bg-cyan-700 md:text-sm"
+            className="text-center text-white bg-cyan-600 p-3 hover:bg-cyan-700 px-8 py-3 md:text-sm md:px-4"
           >
             Learn More
           </Link>
           <Link
             href="/services"
-            className="text-white border-y-2 border-r-2 p-2 py-3 border-l-4 border-slate-400 hover:bg-slate-50/10 md:text-sm"
+            className="text-white border-y-2 border-r-2 p-2 py-3 border-l-4 border-slate-400 hover:bg-slate-50/10 md:text-sm md:px-4"
           >
             See our services
           </Link>

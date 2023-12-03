@@ -12,8 +12,8 @@ export default function Services() {
         <span className="text-base font-semibold tracking-wide mb-8 lg:text-base">
           OUR SERVICES
         </span>
-        <span className="text-5xl font-extrabold mb-3">What Services</span>
-        <span className="text-5xl font-extrabold mb-8">We Offer For You</span>
+        <span className="text-5xl font-extrabold mb-3 md:text-4xl">What Services</span>
+        <span className="text-5xl font-extrabold mb-8 md:text-4xl">We Offer For You</span>
         <Link
           href="/services"
           className="font-light bg-cyan-400 w-max rounded-lg px-4 py-2 hover:bg-cyan-500 lg:mx-auto"
@@ -28,7 +28,7 @@ export default function Services() {
           </div>
           <div className="mt-8 flex flex-col gap-4">
             <span className="font-bold">UI/UX Design</span>
-            <span className="font-light text-xs">
+            <span className="font-light text-xs md:text-sm">
               focus on understanding your audience and translating your brand
               into an engaging digital interface.
             </span>
@@ -40,7 +40,7 @@ export default function Services() {
           </div>
           <div className="mt-8 flex flex-col gap-4">
             <span className="font-bold">Web Development</span>
-            <span className="font-light text-xs">
+            <span className="font-light text-xs md:text-sm">
               we specialize in developing robust and scalable web applications
               tailored to meet your business objectives.{' '}
             </span>
@@ -52,7 +52,7 @@ export default function Services() {
           </div>
           <div className="mt-8 flex flex-col gap-4">
             <span className="font-bold">Mobile App Development</span>
-            <span className="font-light text-xs">
+            <span className="font-light text-xs md:text-sm">
               crafts innovative and user-friendly mobile applications for
               various platforms.
             </span>
@@ -64,7 +64,7 @@ export default function Services() {
           </div>
           <div className="mt-8 flex flex-col gap-4">
             <span className="font-bold">Quality Assurance and Testing</span>
-            <span className="font-light text-xs">
+            <span className="font-light text-xs md:text-sm">
               delivering high-quality software through rigorous testing
               processes.
             </span>
