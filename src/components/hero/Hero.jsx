@@ -24,16 +24,16 @@ export default function Hero() {
         <span className="text-2xl text-white font-light lg:text-xl md:text-sm">
           in transformative technology solutions.
         </span>
-        <div className="flex mt-12 gap-8 md:flex-col">
+        <div className="flex mt-12 items-center gap-8 md:flex-col md:gap-4">
           <Link
             href="/about"
-            className="text-center text-white bg-cyan-600 p-3 hover:bg-cyan-700 md:text-sm"
+            className="text-center text-white bg-cyan-600 py-3 px-8 hover:bg-cyan-700 md:text-sm md:px-4"
           >
             Learn More
           </Link>
           <Link
             href="/services"
-            className="text-white border-y-2 border-r-2 p-2 py-3 border-l-4 border-slate-400 hover:bg-slate-50/10 md:text-sm"
+            className="text-white border-y-2 border-r-2 p-2 py-3 border-l-4 border-slate-400 hover:bg-slate-50/10 md:text-sm md:px-4"
           >
             See our services
           </Link>
