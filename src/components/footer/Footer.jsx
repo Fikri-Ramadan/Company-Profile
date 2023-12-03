@@ -6,8 +6,8 @@ export default function Footer() {
   return (
     <div className="mt-8 border-y-2">
       <div className="max-w-7xl px-8 py-6 min-h-72 mx-auto flex items-start gap-12 lg:gap-x-6 lg:flex-col lg:text-center lg:items-center">
-        <div className="w-1/3 space-y-4">
-          <div className="font-bold tracking-widest text-4xl md:text-2xl">InnoTech</div>
+        <div className="w-1/3 space-y-4 lg:w-3/5">
+          <div className="font-bold tracking-widest text-4xl md:text-xl">InnoTech</div>
           <div className="text-sm text-gray-500">
             Founded in 2010, InnoTech has been a pioneer in transformative
             technology solutions.
