@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function TestimonialCard({ name, job, picture, message }) {
   return (
-    <div className='flex flex-col justify-start bg-cyan-700 text-center space-y-4 p-8 h-112 lg:h-fit lg:max-h-142'>
+    <div className='flex flex-col justify-start bg-cyan-700 text-center space-y-4 p-8 h-112 lg:h-fit lg:max-h-160'>
       <Image
         src={picture}
         alt=""
