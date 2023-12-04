@@ -13,13 +13,13 @@ export default function Footer() {
             technology solutions.
           </div>
           <div className="flex space-x-4 text-gray-600 lg:justify-center">
-            <Link href='https://www.youtube.com/innotech'>
+            <Link href='https://www.instagram.com/innotech' aria-label='link to InnoTech instagram'>
               <FaInstagram className="text-2xl" />
             </Link>
-            <Link href='https://www.facebook.com/innotech'>
+            <Link href='https://www.facebook.com/innotech' aria-label='link to InnoTech facebook'>
               <FaFacebookSquare className="text-2xl" />
             </Link>
-            <Link href='https://www.youtube.com/innotech'>
+            <Link href='https://www.youtube.com/innotech' aria-label='link to InnoTech youtube'>
               <FaYoutubeSquare className="text-2xl" />
             </Link>
           </div>
