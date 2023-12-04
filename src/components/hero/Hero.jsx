@@ -6,10 +6,11 @@ export default function Hero() {
     <div className="relative">
       <Image
         className="object-cover h-160 rounded-2xl md:h-142"
-        src="/hero.jpg"
+        src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt="hero img"
         width={1280}
         height={500}
+        priority
       />
       <div className="absolute top-0 left-0 w-full h-160 flex flex-col items-center justify-center bg-black/50 rounded-2xl md:h-142">
         <span className="text-7xl text-white font-bold mb-2 lg:text-5xl md:text-xl md:font-extrabold">

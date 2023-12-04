@@ -12,7 +12,7 @@ export default function Navbar() {
     <div className="w-full bg-white sticky top-0 z-50">
       <div className="max-w-7xl mx-auto h-20 px-8 items-center flex justify-between bg-white shadow-sm">
         <div className="font-bold tracking-widest text-4xl md:text-2xl">
-          InnoTech
+          <Link href='/'>InnoTech</Link>
         </div>
         <div className="flex space-x-12 lg:hidden">
           <Link
@@ -40,7 +40,10 @@ export default function Navbar() {
             Teams
           </Link>
         </div>
-        <Link href="mailto:fikrinr.tech@gmail.com" aria-label='link to company email'>
+        <Link
+          href="mailto:fikrinr.tech@gmail.com"
+          aria-label="get in touch to InnoTech email"
+        >
           <div className="flex items-center space-x-2 bg-cyan-500 px-4 py-2 rounded-md text-black font-medium tracking-wide hover:bg-cyan-600 hover:cursor-pointer lg:hidden">
             <MdOutlineEmail />
             <span>Get in Touch</span>
@@ -85,10 +88,15 @@ export default function Navbar() {
               >
                 Teams
               </Link>
-              <div className="w-max mx-auto flex items-center space-x-2 bg-cyan-500 px-4 py-2 rounded-md text-black font-medium tracking-wide hover:bg-cyan-600 hover:cursor-pointer">
-                <MdOutlineEmail />
-                <span>Get in Touch</span>
-              </div>
+              <Link
+                href="mailto:fikrinr.tech@gmail.com"
+                aria-label="get in touch to InnoTech email"
+              >
+                <div className="w-max mx-auto flex items-center space-x-2 bg-cyan-500 px-4 py-2 rounded-md text-black font-medium tracking-wide hover:bg-cyan-600 hover:cursor-pointer">
+                  <MdOutlineEmail />
+                  <span>Get in Touch</span>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
