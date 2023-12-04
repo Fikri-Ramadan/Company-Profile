@@ -31,13 +31,13 @@ export default function Hero() {
         <div className="flex items-center mt-12 gap-8 md:flex-col md:gap-4">
           <Link
             href="/about"
-            className="text-center text-white bg-cyan-600 p-3 hover:bg-cyan-700 px-8 py-3 md:text-sm md:px-4"
+            className="text-center text-black font-medium bg-cyan-600 hover:bg-cyan-700 px-8 py-3 rounded-md md:text-sm md:px-4"
           >
-            Learn More
+            About Us
           </Link>
           <Link
             href="/services"
-            className="text-white border-y-2 border-r-2 p-2 py-3 border-l-4 border-slate-400 hover:bg-slate-50/10 md:text-sm md:px-4"
+            className="text-white border-y-2 border-r-2 p-2 py-3 border-l-4 rounded-md border-slate-400 hover:bg-slate-50/10 md:text-sm md:px-4"
           >
             See our services
           </Link>

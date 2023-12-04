@@ -16,7 +16,7 @@ export default function Services() {
         <span className="text-5xl font-extrabold mb-8 md:text-4xl">We Offer For You</span>
         <Link
           href="/services"
-          className="font-light bg-cyan-400 w-max rounded-lg px-4 py-2 hover:bg-cyan-500 lg:mx-auto"
+          className="bg-cyan-400 w-max rounded-md px-4 py-2 shadow-md hover:bg-cyan-500 lg:mx-auto"
         >
           Explore More
         </Link>

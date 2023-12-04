@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
+  content: [
+    './node_modules/flowbite-react/**/*.js',
+    './src/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
   theme: {
     screens: {
       '2xl': { max: '1535px' },
@@ -18,5 +21,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('flowbite/plugin')],
 };

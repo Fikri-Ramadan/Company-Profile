@@ -17,7 +17,7 @@ export default function Contact() {
         </span>
         <Link
           href="mailto:fikrinr.tech@gmail.com"
-          className="bg-cyan-500 text-white p-4 hover:bg-cyan-600"
+          className="bg-cyan-500 text-black font-medium p-4 hover:bg-cyan-600 rounded-md"
         >
           Reach out now
         </Link>
