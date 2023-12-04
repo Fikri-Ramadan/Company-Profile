@@ -40,7 +40,7 @@ export default function Navbar() {
             Teams
           </Link>
         </div>
-        <Link href="mailto:fikrinr.tech@gmail.com">
+        <Link href="mailto:fikrinr.tech@gmail.com" aria-label='link to company email'>
           <div className="flex items-center space-x-2 bg-cyan-500 px-4 py-2 rounded-md text-black font-medium tracking-wide hover:bg-cyan-600 hover:cursor-pointer lg:hidden">
             <MdOutlineEmail />
             <span>Get in Touch</span>

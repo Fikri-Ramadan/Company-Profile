@@ -17,6 +17,7 @@ export default function Contact() {
         </span>
         <Link
           href="mailto:fikrinr.tech@gmail.com"
+          aria-label="link to company email"
           className="bg-cyan-500 text-black font-medium p-4 hover:bg-cyan-600 rounded-md"
         >
           Reach out now
