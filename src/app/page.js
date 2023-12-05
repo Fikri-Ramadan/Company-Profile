@@ -8,15 +8,15 @@ import TestimonialCompany from '@/components/testimonial/TestimonialCompany';
 export default function Home() {
   return (
     <div className="mt-4 space-y-36">
-      <div className="max-w-7xl mx-auto space-y-36 px-8 md:px-4">
+      <div className="max-w-7xl mx-auto space-y-36 px-8 mobile:px-4">
         <Hero />
         <Mission />
         <Services />
       </div>
-      <div className="bg-cyan-950 mx-auto px-8 md:px-4">
+      <div className="bg-cyan-950 mx-auto px-8 mobile:px-4">
         <Testimonial />
       </div>
-      <div className="max-w-7xl mx-auto space-y-36 px-8 md:px-4">
+      <div className="max-w-7xl mx-auto space-y-36 px-8 mobile:px-4">
         <TestimonialCompany />
         <Contact />
       </div>

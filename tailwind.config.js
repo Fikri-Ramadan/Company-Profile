@@ -1,16 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    // './node_modules/flowbite-react/**/*.js',
+    './node_modules/flowbite-react/**/*.js',
     './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     screens: {
-      '2xl': { max: '1535px' },
-      xl: { max: '1279px' },
-      lg: { max: '1023px' },
-      md: { max: '767px' },
-      sm: { max: '639px' },
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px',
+      mobile: { max: '767px' },
+      tablet: { max: '1023px' },
     },
     extend: {
       spacing: {
@@ -21,7 +23,5 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    // require('flowbite/plugin')
-  ],
+  plugins: [require('flowbite/plugin')],
 };

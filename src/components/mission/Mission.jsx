@@ -2,14 +2,14 @@ import Image from 'next/image';
 
 export default function Mission() {
   return (
-    <div className="mx-auto flex gap-16 items-center lg:flex-col lg:text-center">
+    <div className="mx-auto flex gap-16 items-center tablet:flex-col tablet:text-center">
       <div className="flex-1">
         <Image
           src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt=""
           width={1280}
           height={500}
-          className="h-96 object-cover rounded-md lg:h-112"
+          className="h-96 object-cover rounded-md tablet:h-112"
         />
       </div>
       <div className="flex-1 flex flex-col gap-y-4">

@@ -12,7 +12,7 @@ export default function Contact() {
         className="h-96 object-cover rounded-2xl"
       />
       <div className="absolute top-0 left-0 w-full h-96 flex flex-col justify-center items-center space-y-12 bg-black/70 rounded-2xl">
-        <span className="text-4xl text-white font-bold md:text-base">
+        <span className="text-4xl text-white font-bold mobile:text-base">
           Let&apos;s Build Something Together
         </span>
         <Link
