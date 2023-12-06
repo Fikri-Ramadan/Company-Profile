@@ -11,7 +11,7 @@ import {
 export default function CompanyTimeline() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-24 space-y-16">
-      <div className="text-4xl font-bold text-white text-center tracking-wider">
+      <div className="text-4xl font-bold text-white text-center tracking-wider mobile:text-2xl">
         Company History and Milestones
       </div>
 
@@ -19,7 +19,7 @@ export default function CompanyTimeline() {
         <Timeline>
           <TimelineItem>
             <TimelinePoint />
-            <TimelineContent>
+            <TimelineContent className='space-y-2'>
               <TimelineTime className="text-white">2010</TimelineTime>
               <TimelineTitle className="text-white">
                 The Beginning
@@ -35,7 +35,7 @@ export default function CompanyTimeline() {
 
           <TimelineItem>
             <TimelinePoint />
-            <TimelineContent>
+            <TimelineContent className='space-y-2'>
               <TimelineTime className="text-white">2012</TimelineTime>
               <TimelineTitle className="text-white">
                 Formalizing Excellence
@@ -51,7 +51,7 @@ export default function CompanyTimeline() {
 
           <TimelineItem>
             <TimelinePoint />
-            <TimelineContent>
+            <TimelineContent className='space-y-2'>
               <TimelineTime className="text-white">2014</TimelineTime>
               <TimelineTitle className="text-white">
                 First Major Project
@@ -68,7 +68,7 @@ export default function CompanyTimeline() {
         <Timeline>
           <TimelineItem>
             <TimelinePoint />
-            <TimelineContent>
+            <TimelineContent className='space-y-2'>
               <TimelineTime className="text-white">2016</TimelineTime>
               <TimelineTitle className="text-white">
                 Client-Centric Transformation
@@ -83,7 +83,7 @@ export default function CompanyTimeline() {
 
           <TimelineItem>
             <TimelinePoint />
-            <TimelineContent>
+            <TimelineContent className='space-y-2'>
               <TimelineTime className="text-white">2020</TimelineTime>
               <TimelineTitle className="text-white">
                 A Decade of Innovation
@@ -99,7 +99,7 @@ export default function CompanyTimeline() {
 
           <TimelineItem>
             <TimelinePoint />
-            <TimelineContent>
+            <TimelineContent className='space-y-2'>
               <TimelineTime className="text-white">Present</TimelineTime>
               <TimelineTitle className="text-white">
                 Shaping the Future
