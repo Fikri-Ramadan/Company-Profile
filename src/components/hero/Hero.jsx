@@ -13,10 +13,10 @@ export default function Hero() {
         priority
       />
       <div className="absolute top-0 left-0 w-full h-160 flex flex-col items-center justify-center bg-black/50 rounded-2xl mobile:h-142">
-        <span className="text-7xl text-white font-bold mb-2 tablet:text-5xl mobile:text-xl mobile:font-extrabold">
+        <span className="text-7xl text-white font-bold mb-2 tablet:text-4xl mobile:text-xl mobile:font-extrabold">
           Empowering Businesses
         </span>
-        <span className="text-7xl text-white font-bold tablet:text-5xl mobile:text-xl mobile:font-extrabold">
+        <span className="text-7xl text-white font-bold tablet:text-4xl mobile:text-xl mobile:font-extrabold">
           through Innovation
         </span>
         <span className="text-2xl text-white font-light mt-12 tablet:text-xl mobile:hidden">
