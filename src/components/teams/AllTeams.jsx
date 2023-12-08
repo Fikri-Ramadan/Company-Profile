@@ -1,24 +1,8 @@
-'use client';
-
 import { getRandomUsers } from '@/utils/randomUsers';
 import EmployeeCard from './EmployeeCard';
-import { useEffect, useState } from 'react';
 
-const getUsers = async () => {
+export default async function AllTeams() {
   const { results: users } = await getRandomUsers(20);
-  return users;
-};
-
-export default function AllTeams() {
-  const [users, setUsers] = useState([]);
-  useEffect(() => {
-    const fetchUsers = async () => {
-      const users = await getUsers();
-      setUsers(users);
-    };
-
-    fetchUsers();
-  }, [users]);
 
   const jobTitles = [
     'Senior UI/UX Designer',
