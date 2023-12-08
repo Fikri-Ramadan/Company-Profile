@@ -4,11 +4,12 @@ import PricingCard from './PricingCard';
 export default function Pricing() {
   return (
     <div className="space-y-24">
-      <div className="text-center space-y-4">
-        <div className="text-lg font-bold mobile:text-base">PRICING PLANS</div>
+      <div className="text-center">
+        <div className="text-lg font-bold mobile:text-base mb-4">PRICING PLANS</div>
         <div className="text-4xl font-extrabold mobile:text-2xl">
           The Best Solutions for Our Clients
         </div>
+        <div className="w-20 h-1 bg-cyan-500 rounded-full mx-auto mt-8"></div>
       </div>
       <div className="grid grid-cols-2 place-items-center gap-y-24 tablet:grid-cols-1 tablet:gap-y-8">
         <PricingCard

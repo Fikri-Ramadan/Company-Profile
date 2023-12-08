@@ -22,9 +22,9 @@ export default async function Teams() {
               alt=""
               width={100}
               height={100}
-              className="w-36 h-36 rounded-md"
+              className="w-36 h-36 rounded-full"
             />
-            <div className="absolute w-full h-full bg-black/30 top-0 rounded-md"></div>
+            <div className="absolute w-full h-full bg-black/30 top-0 rounded-full"></div>
           </div>
           <div className="text-center mt-8 space-y-2 text-white">
             <div className="text-xl font-medium">{`${users[0].name.first} ${users[0].name.last}`}</div>
@@ -40,9 +40,9 @@ export default async function Teams() {
               alt=""
               width={100}
               height={100}
-              className="w-36 h-36 rounded-md"
+              className="w-36 h-36 rounded-full"
             />
-            <div className="absolute w-full h-full bg-black/30 top-0 rounded-md"></div>
+            <div className="absolute w-full h-full bg-black/30 top-0 rounded-full"></div>
           </div>
           <div className="text-center mt-8 space-y-2 text-white">
             <div className="text-xl font-medium">{`${users[1].name.first} ${users[1].name.last}`}</div>
@@ -58,9 +58,9 @@ export default async function Teams() {
               alt=""
               width={100}
               height={100}
-              className="w-36 h-36 rounded-md"
+              className="w-36 h-36 rounded-full"
             />
-            <div className="absolute w-full h-full bg-black/30 top-0 rounded-md"></div>
+            <div className="absolute w-full h-full bg-black/30 top-0 rounded-full"></div>
           </div>
           <div className="text-center mt-8 space-y-2 text-white">
             <div className="text-xl font-medium">{`${users[2].name.first} ${users[2].name.last}`}</div>

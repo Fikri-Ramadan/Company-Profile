@@ -4,6 +4,11 @@ import CompanyValue from '@/components/companyValue/CompanyValue';
 import Teams from '@/components/teams/Teams';
 import Contact from '@/components/contact/Contact';
 
+export const metadata = {
+  title: 'About - InnoTech',
+  description: 'About page - InnoTech Company Profile',
+};
+
 export default function About() {
   return (
     <div className="mt-4 space-y-36">

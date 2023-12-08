@@ -4,6 +4,11 @@ import HeroServices from '@/components/hero/HeroServices';
 import Pricing from '@/components/pricing/Pricing';
 import ChooseUs from '@/components/testimonial/ChooseUs';
 
+export const metadata = {
+  title: 'Services - InnoTech',
+  description: 'Services pages - InnoTech Company Profile',
+};
+
 export default function Services() {
   return (
     <>
