@@ -1,9 +1,7 @@
 import { getRandomUsers } from '@/utils/randomUsers';
 import EmployeeCard from './EmployeeCard';
 
-export default async function AllTeams() {
-  const { results: users } = await getRandomUsers(20);
-
+export default async function AllTeams({ users }) {
   const jobTitles = [
     'Senior UI/UX Designer',
     'Visual Design Specialist',

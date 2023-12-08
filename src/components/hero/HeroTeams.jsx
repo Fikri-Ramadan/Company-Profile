@@ -1,9 +1,7 @@
-import { getRandomUsers } from '@/utils/randomUsers';
 import Image from 'next/image';
 import EmployeeCard from '../teams/EmployeeCard';
 
-export default async function HeroTeams() {
-  const { results: users } = await getRandomUsers(3);
+export default async function HeroTeams({ users }) {
   const jobTitles = [
     'Visual Design Specialist',
     'Full-Stack Developer',

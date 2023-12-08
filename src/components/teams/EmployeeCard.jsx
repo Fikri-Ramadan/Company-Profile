@@ -21,17 +21,17 @@ export default function EmployeeCard({
         />
         <div className="absolute w-full h-full bg-black/30 top-0 rounded-full"></div>
       </div>
-      <div className="text-center mt-8 space-y-2 text-white">
+      <div className="text-center mt-8 space-y-2 text-black">
         <div className="text-xl font-medium">{`${firstName} ${lastName}`}</div>
         <div className="tracking-wider font-light">{jobTitle}</div>
         <div className="flex justify-center gap-4">
-          <Link href={'https://www.linkedin.com'}>
+          <Link href={'https://www.linkedin.com'} aria-label='go to employee linkedin'>
             <FaLinkedin className="text-3xl" />
           </Link>
-          <Link href={'https://www.x.com'}>
+          <Link href={'https://www.x.com'} aria-label='go to employee twitter'>
             <FaSquareXTwitter className="text-3xl" />
           </Link>
-          <Link href={'https://www.instagram.com'}>
+          <Link href={'https://www.instagram.com'} aria-label='go to employee instagram'>
             <FaSquareInstagram className="text-3xl" />
           </Link>
         </div>
