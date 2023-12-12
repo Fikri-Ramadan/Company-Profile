@@ -11,7 +11,7 @@ export default function Pricing() {
         </div>
         <div className="w-20 h-1 bg-cyan-500 rounded-full mx-auto mt-8"></div>
       </div>
-      <div className="grid grid-cols-2 place-items-center gap-y-24 tablet:grid-cols-1 tablet:gap-y-8">
+      <div className="w-8/12 mx-auto grid grid-cols-2 place-items-center gap-16 tablet:grid-cols-1 tablet:gap-y-8 mobile:w-full">
         <PricingCard
           name={'UI/UX Design'}
           price={'1200'}

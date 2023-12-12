@@ -10,7 +10,7 @@ export const metadata = {
 };
 
 export default async function Teams() {
-  const { results: users } = await getRandomUsers(23);
+  const { results: users } = await getRandomUsers(19);
 
   return (
     <div className="space-y-36">

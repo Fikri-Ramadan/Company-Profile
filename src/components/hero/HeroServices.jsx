@@ -18,7 +18,7 @@ export default function HeroServices() {
         </div>
       </div>
       <div className="grid grid-cols-2 gap-4 tablet:grid-cols-1 tablet:gap-8">
-        <div className="w-full h-112 mx-auto bg-slate-50/80 p-6 shadow-md rounded-md tablet:w-11/12 mobile:h-fit max-h-142 mobile:text-center">
+        <div className="w-full h-112 mx-auto bg-slate-50/80 p-6 shadow-md border-2 border-slate-200 rounded-xl tablet:w-11/12 mobile:h-fit max-h-142 mobile:text-center">
           <div className="w-12 h-12 bg-cyan-300 rounded-full mobile:mx-auto">
             <SiMaterialdesignicons className="w-8 h-8" />
           </div>
@@ -43,7 +43,7 @@ export default function HeroServices() {
           </div>
         </div>
 
-        <div className="w-full h-112 mx-auto bg-slate-50/80 p-6 shadow-md rounded-md tablet:w-11/12 mobile:h-fit max-h-142 mobile:text-center">
+        <div className="w-full h-112 mx-auto bg-slate-50/80 p-6 shadow-md border-2 border-slate-200 rounded-xl tablet:w-11/12 mobile:h-fit max-h-142 mobile:text-center">
           <div className="w-12 h-12 bg-cyan-300 rounded-full mobile:mx-auto">
             <FaLaptopCode className="w-8 h-8" />
           </div>
@@ -67,7 +67,7 @@ export default function HeroServices() {
           </div>
         </div>
 
-        <div className="w-full h-112 mx-auto bg-slate-50/80 p-6 shadow-md rounded-md tablet:w-11/12 mobile:h-fit max-h-142 mobile:text-center">
+        <div className="w-full h-112 mx-auto bg-slate-50/80 p-6 shadow-md border-2 border-slate-200 rounded-xl tablet:w-11/12 mobile:h-fit max-h-142 mobile:text-center">
           <div className="w-12 h-12 bg-cyan-300 rounded-full mobile:mx-auto">
             <TbDeviceMobileCode className="w-8 h-8" />
           </div>
@@ -92,7 +92,7 @@ export default function HeroServices() {
           </div>
         </div>
 
-        <div className="w-full h-112 mx-auto bg-slate-50/80 p-6 shadow-md rounded-md tablet:w-11/12 mobile:h-fit max-h-142 mobile:text-center">
+        <div className="w-full h-112 mx-auto bg-slate-50/80 p-6 shadow-md border-2 border-slate-200 rounded-xl tablet:w-11/12 mobile:h-fit max-h-142 mobile:text-center">
           <div className="w-12 h-12 bg-cyan-300 rounded-full mobile:mx-auto">
             <FaGear className="w-8 h-8" />
           </div>
